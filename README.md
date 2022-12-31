@@ -1,1 +1,1 @@
-# table, form, navbar tag, semantic tags,
+# table, form, navbar tag, semantic tags, etc.
