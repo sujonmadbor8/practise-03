@@ -1,0 +1,30 @@
+table {
+    /* background-color: cornflowerblue; */
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+caption {
+    padding-bottom: 10px;
+}
+th {
+    background-color: lightblue;
+}
+
+tr:hover {
+    background-color: orange;
+    color: white;
+}
+tr td:hover {
+    background-color: orange;
+}
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,
+td {
+    padding: 10px;
+}

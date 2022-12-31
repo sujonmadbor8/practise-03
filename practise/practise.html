@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Practise</title>
+        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="practise.css" />
+    </head>
+    <body>
+        <nav style="background-color: darkcyan">
+            <img src="../images/logo.png" alt="" />
+            <ol>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="/practise/practise.html">Practise</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li>
+                    <a href="/login/login.html">Login</a>
+                    <span style="color: red">|</span>
+                    <a href="/signup/sign_up.html">Sign_Up</a>
+                </li>
+            </ol>
+        </nav>
+        <br /><br />
+
+        <table>
+            <caption>
+                This table for different type of input tags Attributes
+            </caption>
+            <tr>
+                <th>Tags</th>
+                <th>Attributes</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td rowspan="22">input</td>
+                <td rowspan="22">type</td>
+                <td>text (default value)</td>
+            </tr>
+            <tr>
+                <td>button</td>
+            </tr>
+            <tr>
+                <td>checkbox</td>
+            </tr>
+            <tr>
+                <td>color</td>
+            </tr>
+            <tr>
+                <td>date</td>
+            </tr>
+            <tr>
+                <td>datetime-local</td>
+            </tr>
+            <tr>
+                <td>email</td>
+            </tr>
+            <tr>
+                <td>file</td>
+            </tr>
+            <tr>
+                <td>image</td>
+            </tr>
+            <tr>
+                <td>hidden</td>
+            </tr>
+            <tr>
+                <td>month</td>
+            </tr>
+            <tr>
+                <td>number</td>
+            </tr>
+            <tr>
+                <td>password</td>
+            </tr>
+            <tr>
+                <td>radio</td>
+            </tr>
+            <tr>
+                <td>range</td>
+            </tr>
+            <tr>
+                <td>reset</td>
+            </tr>
+            <tr>
+                <td>reserch</td>
+            </tr>
+            <tr>
+                <td>submit</td>
+            </tr>
+            <tr>
+                <td>tel</td>
+            </tr>
+            <tr>
+                <td>time</td>
+            </tr>
+            <tr>
+                <td>url</td>
+            </tr>
+            <tr>
+                <td>week</td>
+            </tr>
+        </table>
+        <h1>Boolean Attributes</h1>
+        <hr />
+        <hr />
+        <br />
+        <!-- allowfullscreen -->
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/MUA5Th1GcJs"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+        ></iframe>
+        <br /><br /><br />
+
+        <!-- autofocus  -->
+
+        <form action="#">
+            <label for="disabled">Disabled:</label>
+            <!-- disabled  -->
+            <input
+                type="text"
+                id="disabled"
+                name="disabled"
+                disabled
+            /><br /><br />
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" autofocus /><br /><br />
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" /><br /><br />
+            <input type="checkbox" name="vehicle1" value="Bike" />
+            <label for="vehicle1"> I have a bike</label><br />
+            <input type="checkbox" name="vehicle2" value="Car" />
+            <label for="vehicle2"> I have a car</label><br />
+            <!-- checked  -->
+            <input type="checkbox" name="vehicle3" value="Boat" checked />
+            <label for="vehicle3"> I have a boat</label><br /><br />
+            <input type="submit" />
+            <!-- ..  -->
+            <input type="submit" value="Submit" />
+            <input
+                type="submit"
+                formnovalidate
+                value="Submit without validation"
+            />
+            <br /><br />
+            <input
+                type="text"
+                id="country"
+                name="country"
+                value="Read_Only"
+                readonly
+            /><br /><br />
+            <input
+                type="text"
+                id="username"
+                name="username"
+                required
+                placeholder="requred"
+            /><br /><br />
+        </form>
+        <!-- autoplay & controls -->
+        <video
+            controls
+            src="video/info.mp4"
+            type="video/mp4"
+            width="560"
+            height="315"
+            autoplay
+        ></video>
+        <br /><br /><br />
+        <a src="https://www.youtube.com/@sujonmadbor8" target="_blank">
+            <img
+                style="width: 200px"
+                src="images/sujonmadbor8.png"
+                alt="youtube.com/@sujonmadbor8"
+                ismap
+            />
+        </a>
+
+        <!-- loop  -->
+        <video
+            controls
+            src="video/info.mp4"
+            type="video/mp4"
+            width="560"
+            height="315"
+            autoplay
+            loop
+        ></video>
+
+        <video
+            playsinline
+            controls
+            loop
+            muted
+            autoplay
+            src="video/info.mp4"
+            type="video/mp4"
+        ></video
+        ><br /><br /><br />
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars" multiple>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br /><br />
+
+        <h1>The details open attribute</h1>
+
+        <details open>
+            <summary>Epcot Center</summary>
+            <p>
+                Epcot is a theme park at Walt Disney World Resort featuring
+                exciting attractions, international pavilions, award-winning
+                fireworks and seasonal special events.
+            </p>
+        </details>
+
+        <p>
+            This example demonstrates a details element that is open by default.
+        </p>
+        <br /><br /><br />
+        <ol reversed>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+
+        <br /><br />
+        <select id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab" selected>Saab</option>
+            <option value="vw">VW</option>
+            <option value="audi">Audi</option>
+        </select>
+    </body>
+</html>
